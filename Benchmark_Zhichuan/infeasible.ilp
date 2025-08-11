@@ -1,0 +1,15 @@
+\ Model unknown_copy
+\ LP format - for model browsing. Use MPS format to capture full model detail.
+\ Signature: 0xf63340de22504620
+Minimize
+ 
+Subject To
+ x70997: 4.082885958825645 x44883 - 0.2842687385688433 x48627
+   - 0.2127298386359082 x65235 - 3.585887381620893 x65715
+   = -67.69805914073423
+Bounds
+ x44883 >= -3.1415926
+ -infinity <= x48627 <= 3.1415926
+ -infinity <= x65235 <= 3.1415926
+ -infinity <= x65715 <= 3.1415926
+End
